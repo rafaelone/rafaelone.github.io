@@ -25,3 +25,34 @@ Rodando webpack
 
 npm rum webpack
 
+INstalando react.js
+
+npm install react react-dom babel-preset-react
+
+
+Criando arquivo html vazio
+npm install html-webpack-plugin --save-dev 
+
+Templates do html
+
+npm install html-webpack-template
+
+
+
+npm install -D gh-pages
+npm intall normalize.css
+
+
+Estudar
+
+http://bit.ly/2iyoSRT
+
+http://www.akitaonrails.com/2010/08/17/screencast-comecando-com-git
+
+https://github.com/renatomassao/Dev-List-2TINA
+
+http://github.com/renatomassao/renatomassao.github.io
+
+
+
+

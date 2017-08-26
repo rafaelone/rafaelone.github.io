@@ -1,5 +1,6 @@
 /*Configuando webpack*/
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	/*Configuração do nome do aquivo e ond vai salvar*/
@@ -17,21 +18,26 @@ module.exports = {
 			test: /\.jsx?/,
 			loader: 'babel-loader',
 			options: {
-				presets: ['es2015']
+				presets: ['es2015','react']
 			},
 		},
 		{
-			test: /\.pug/,
-			loader: 'pug-loader'
-		},
-		{
-			test: /\.styl*/,
+			test: /\.css*/,
 			use: [
 					'style-loader',
-			 		'css-loader', 
-			 		'stylus-loader'
+			 		'css-loader' 
 			 	]
-		}
+			}
 		]
+	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: require('html-webpack-template'),
+			title: 'hello world',
+			appMountId: 'app'
+		}),
+	],
+	resolve: {
+		extensions: ['.jsx', '.js']
 	}
 }
