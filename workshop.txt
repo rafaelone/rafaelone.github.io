@@ -1,0 +1,22 @@
+Pré processadores
+
+Definição -> MeaLinguagem de programação, vai programa em uma lingaguem pra gerar oura linguagem
+
+Babel -> tradutor de ecma 2015,2016
+
+
+Instalando pre processador
+
+-D -> dependencia de desenvolvimento
+
+npm install -D stylus
+
+
+Instalando babel - webpack
+npm install -D webpack babel-core babel-loader babel-preset-es2015
+
+
+Instalando stylus/style/css loader
+
+npm install -D pug pug-loader stylus-loader style-loader css-loader
+
