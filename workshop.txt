@@ -20,3 +20,8 @@ Instalando stylus/style/css loader
 
 npm install -D pug pug-loader stylus-loader style-loader css-loader
 
+
+Rodando webpack
+
+npm rum webpack
+
